@@ -1,0 +1,24 @@
+<svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top bar with curve -->
+  <rect x="100" y="30" width="312" height="50" rx="10" fill="url(#gradient1)" />
+  <path d="M 120 80 Q 256 30 392 80" stroke="url(#gradient1)" strokeWidth="40" fill="none" strokeLinecap="round" />
+
+  <!-- Main frame -->
+  <rect x="80" y="100" width="352" height="280" rx="30" fill="none" stroke="url(#gradient1)" strokeWidth="35" />
+
+  <!-- Eyes with gradient -->
+  <rect x="140" y="160" width="40" height="80" rx="8" fill="url(#gradient1)" />
+  <rect x="200" y="160" width="40" height="80" rx="8" fill="url(#gradient1)" />
+  <rect x="260" y="160" width="40" height="80" rx="8" fill="url(#gradient1)" />
+
+  <!-- Smile -->
+  <path d="M 150 280 Q 256 320 366 280" stroke="url(#gradient1)" strokeWidth="35" fill="none" strokeLinecap="round" />
+
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#5B4FFF" />
+      <stop offset="100%" stopColor="#FF1E7E" />
+    </linearGradient>
+  </defs>
+</svg>
